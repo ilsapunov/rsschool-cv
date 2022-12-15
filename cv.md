@@ -31,6 +31,7 @@ function otherAngle(a, b) {
 ## Education
 ********************
 Belarusian State University
+
 _Faculty of Mechanics and Mathematics, Mathematics and Information Technology_
 
 ## Сourses
