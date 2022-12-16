@@ -13,11 +13,10 @@
 ********************
 My goal is to improve my front-end knowledge.
 
-## About myself
+## Skills
 ********************
-* html
-* css
-* js
+* HTML5, CSS3, JS
+* Git, GitHub
 * php
 
 ## Code example
@@ -31,6 +30,7 @@ function otherAngle(a, b) {
 ## Education
 ********************
 Belarusian State University
+
 _Faculty of Mechanics and Mathematics, Mathematics and Information Technology_
 
 ## Сourses
