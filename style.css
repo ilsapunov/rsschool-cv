@@ -1,3 +1,243 @@
-h1{
-    color: darkblue;
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+    font-family: 'Mallanna', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #5096F1;
+}
+
+.content-wrapper {
+    max-width: 1280px;
+    margin: 20px auto;
+    background-color: #101010;
+}
+
+section {
+    display: flex;
+}
+
+.left-side {
+    width: 40%;
+    padding: 30px;
+
+}
+
+.right-side {
+    width: 60%;
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-family: 'Antic Slab', serif;
+    font-size: 64px;
+    line-height: 1;
+}
+
+h1+h2 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 1;
+    font-family: 'Antic Slab', serif;
+}
+
+.avatar-container {
+    padding: 5px;
+    border-radius: 100%;
+    border: 10px solid rgba(80, 150, 241, 0.25);
+    display: flex;
+}
+
+.avatar-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.head-section {
+    background: radial-gradient(100% 100% at 100% 100%, #5096F1 0%, #202020 100%);
+    align-items: center;
+}
+
+.title-container {
+    padding-left: 60px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.github-link img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.rsschool-link img {
+    width: 150px;
+    height: auto;
+}
+
+a.github-link {
+    display: flex;
+    align-items: center;
+}
+
+.information-block h2 {
+    font-size: 30px;
+    line-height: 1;
+    font-family: 'Antic Slab', serif;
+    padding-bottom: 10px;
+    color: #5096F1;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #5096F1;
+}
+
+ul li::marker {
+    color: #5096F1;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.body-section .left-side {
+    background: #202020;
+    box-shadow: 20px 40px 40px rgba(37, 37, 37, 0.5);
+}
+
+.body-section .left-side .information-block {
+    padding: 15px;
+    background: #1E1E1E;
+}
+
+.information-block {
+    margin-bottom: 24px;
+}
+
+.body-section .right-side .information-block {
+    background: #151515;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 15px;
+}
+
+#projects ul {
+    columns: 2;
+}
+
+.education-item {
+    border-bottom: 1px solid rgba(80, 150, 241, 0.5);
+}
+
+.education-item:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.education-item p {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+nav ul li{
+    padding: 7px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav a{
+    text-decoration: none;
+}
+@media (max-width:1024px) {
+    .title-container{
+        padding: 0;
+    }
+    .head-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .body-section>div,
+    .head-section .right-side{
+        width: 100%;
+    }
+    .body-section{
+        flex-direction: column;
+    }
+    .body-section .left-side .information-block{
+        background: #151515;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .body-section .left-side{
+        background-color:unset;
+        box-shadow:none;
+    }
+}
+@media (max-width:600px) {
+    body {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #projects ul{
+        columns: 1;
+    }
+    .body-section .left-side{
+        padding-bottom: 0;
+    }
+    .right-side{
+        padding-top: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .left-side{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    footer{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h1+h2{
+        font-size: 28px;
+    }
+    .information-block h2{
+        font-size: 26px;
+    }
+    code{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    footer>*{
+        margin-bottom: 16px;
+    }
 }
