@@ -5,8 +5,8 @@
 ********************
 1. **Gmail:** [ilsapunov@gmail.com](mail:ilsapunov@gmail.com)
 2. **Telegram:** [@IlyaSapunov](https://t.me/IlyaSapunov)
-3. **GitHub:** [6a6ywka6etman](https://github.com/6a6ywka6etman)
-4. **Discord:** Ilya Sapunov#3030
+3. **GitHub:** [ilsapunov](https://github.com/ilsapunov)
+4. **Discord:** ilya_sapunov
 5. **Phone:** +375 (29) 338 83 82
 
 ## About myself
@@ -15,9 +15,12 @@ My goal is to improve my front-end knowledge.
 
 ## Skills
 ********************
-* HTML5, CSS3, JS
+* HTML5, CSS3, JS, SASS
 * Git, GitHub
-* php
+* React, Redux, Redux Toolkit
+* Figma, Photoshop
+* Trello, Jira, Customer.io, ClickUp
+* PHP
 
 ## Code example
 ********************
